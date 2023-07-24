@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>finEQUITY: Lesson 1 Quiz</title>
+</head>
+<style>
+
+.desktop {
+ background-color: #ffffff;
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+ width: 100%;
+}
+
+.desktop .div {
+ background-color: #ffffff;
+ border: 1px none;
+ height: 1124px;
+ overflow-x: auto;
+ overflow-y: hidden;
+ position: relative;
+ width: 1440px;
+ display:inline-block;
+}
+
+.desktop .img {
+ height: 53px;
+ left: 40px;
+ object-fit: cover;
+ position: absolute;
+ top: 40px;
+ width: 250px;
+}
+
+.desktop #avatar {
+ border-radius: 26.61px;
+ height: 53px;
+ left: 1347px;
+ position: absolute;
+ top: 40px;
+ width: 53px;
+ border: 1.5px solid rgba(44, 124, 244, 1);
+ cursor: pointer;
+}
+
+.desktop .text-wrapper {
+ color: #2c7cf4;
+ font-family: "Noto Sans-Regular", Helvetica;
+ font-size: 20px;
+ font-weight: 400;
+ left: 19px;
+ letter-spacing: 0;
+ line-height: normal;
+ position: absolute;
+ top: 6px;
+}
+
+.desktop .lesson1 {
+ background-size: 100% 100%;
+ height: 43px;
+ left: 36px;
+ position: absolute;
+ top: 140px;
+ width: 195px;
+}
+
+.desktop .lesson2 {
+ background-size: 100% 100%;
+ height: 43px;
+ left: 36px;
+ position: absolute;
+ top: 186px;
+ width: 195px;
+}
+
+.desktop .lesson3 {
+ background-size: 100% 100%;
+ height: 43px;
+ left: 36px;
+ position: absolute;
+ top: 232px;
+ width: 195px;
+}
+
+.desktop .lesson4 {
+ background-size: 100% 100%;
+ height: 43px;
+ left: 36px;
+ position: absolute;
+ top: 278px;
+ width: 195px;
+}
+
+.desktop .lesson5 {
+ background-size: 100% 100%;
+ height: 43px;
+ left: 36px;
+ position: absolute;
+ top: 324px;
+ width: 195px;
+}
+
+.desktop .lesson6 {
+ background-size: 100% 100%;
+ height: 43px;
+ left: 36px;
+ position: absolute;
+ top: 370px;
+ width: 195px;
+}
+
+.desktop .lesson7 {
+ background-size: 100% 100%;
+ height: 43px;
+ left: 36px;
+ position: absolute;
+ top: 416px;
+ width: 195px;
+}
+
+.desktop .lesson8 {
+ background-size: 100% 100%;
+ height: 43px;
+ left: 36px;
+ position: absolute;
+ top: 462px;
+ width: 195px;
+}
+
+.desktop .closing {
+ background-size: 100% 100%;
+ height: 43px;
+ left: 36px;
+ position: absolute;
+ top: 508px;
+ width: 195px;
+}
+
+.desktop .leftarrow {
+ height: 27px;
+ left: 238px;
+ object-fit: cover;
+ position: absolute;
+ top: 152px;
+ width: 27px;
+}
+
+.desktop #LogoutBox {
+ background-size: 100% 100%;
+ height: 43px;
+ left: 1296px;
+ position: absolute;
+ top: 98px;
+ width: 108px;
+ display: none;
+ cursor: pointer;
+}
+
+.desktop .lesson1:hover {
+ outline: 5px solid rgba(44, 124, 244, 1);
+ outline-offset: -5px;
+ outline-style: outset;
+}
+
+.desktop .lesson2:hover {
+ outline: 5px solid rgba(44, 124, 244, 1);
+ outline-offset: -5px;
+ outline-style: outset;
+}
+
+.desktop .lesson3:hover {
+ outline: 5px solid rgba(44, 124, 244, 1);
+ outline-offset: -5px;
+ outline-style: outset;
+}
+
+.desktop .lesson4:hover {
+ outline: 5px solid rgba(44, 124, 244, 1);
+ outline-offset: -5px;
+ outline-style: outset;
+}
+
+.desktop .lesson5:hover {
+ outline: 5px solid rgba(44, 124, 244, 1);
+ outline-offset: -5px;
+ outline-style: outset;
+}
+
+.desktop .lesson6:hover {
+ outline: 5px solid rgba(44, 124, 244, 1);
+ outline-offset: -5px;
+ outline-style: outset;
+}
+
+.desktop .lesson7:hover {
+ outline: 5px solid rgba(44, 124, 244, 1);
+ outline-offset: -5px;
+ outline-style: outset;
+}
+
+.desktop .lesson8:hover {
+ outline: 5px solid rgba(44, 124, 244, 1);
+ outline-offset: -5px;
+ outline-style: outset;
+}
+
+.desktop .closing:hover {
+ outline: 5px solid rgba(44, 124, 244, 1);
+ outline-offset: -5px;
+ outline-style: outset;
+}
+
+.desktop .quiz {
+  height: 800px;
+  left: 278px;
+  object-fit: cover;
+  position: absolute;
+  top: 140px;
+  width: 1113px;
+  font-family: "Noto Sans-Regular", Helvetica;
+}
+
+textarea {
+	width: 100%;
+	padding: 10px;
+	font-family: "Noto Sans-Regular", Helvetica;
+	font-size: 16px;
+    font-weight: 400;
+}
+</style>
+<body>
+<div class="desktop">
+    <div class="div">
+        <a href = "welcome.html"> <img class="img" alt="Img" src="https://givebutter.s3.amazonaws.com/profiles/PekZmCLpFhQ3kyAX56kBXtwJTFF5oj3bSgPqVvkn.png" /> </a>
+        <a href = "lesson2.html">
+            <div class="lesson2">
+                <img src="assets/Rectangle.png" />
+                <div class="text-wrapper">Lesson 2</div>
+            </div>
+        </a>
+        <a href = "lesson1.html">
+            <div class="lesson1">
+                <img src="assets/Rectangle.png" />
+                <div class="text-wrapper">Lesson 1</div>
+            </div>
+        </a>
+        <a href = "lesson4.html">
+            <div class="lesson4">
+                <img src="assets/Rectangle.png" />
+                <div class="text-wrapper">Lesson 4</div>
+            </div>
+        </a>
+        <a href = "lesson3.html">
+            <div class="lesson3">
+                <img src="assets/Rectangle.png" />
+                <div class="text-wrapper">Lesson 3</div>
+            </div>
+        </a>
+        <a href = "lesson6.html">
+            <div class="lesson6">
+                <img src="assets/Rectangle.png" />
+                <div class="text-wrapper">Lesson 6</div>
+            </div>
+        </a>
+        <a href = "lesson5.html">
+            <div class="lesson5">
+                <img src="assets/Rectangle.png" />
+                <div class="text-wrapper">Lesson 5</div>
+            </div>
+        </a>
+        <a href = "lesson8.html">
+            <div class="lesson8">
+                <img src="assets/Rectangle.png" />
+                <div class="text-wrapper">Lesson 8</div>
+            </div>
+        </a>
+        <a href = "closing.html">
+            <div class="closing">
+                <img src="assets/Rectangle.png" />
+                <div class="text-wrapper">Closing Remarks</div>
+            </div>
+        </a>
+        <a href = "lesson7.html">
+            <div class="lesson7">
+                <img src="assets/Rectangle.png" />
+                <div class="text-wrapper">Lesson 7</div>
+            </div>
+        </a>
+        <div id="LogoutBox">
+            <img src="assets/LogoutRectangle.png" />
+            <div class="text-wrapper">Logout</div>
+        </div>
+        <a href = "lesson1-5.html"> <img class="leftarrow" alt="a" src="https://cdn.iconscout.com/icon/free/png-512/free-angle-left-b-1966289-1659461.png?f=avif&w=512" /> </a>
+        <img id="avatar"/>
+        <div class="quiz">
+            <form method="post" action="https://script.google.com/macros/s/AKfycbwm7qPOYD7K7xoVRD5sH7PFOqvgcyLPkdg8Rj1WuP2QrXEPq8iRzAJJ96cT_7gEO9Ro/exec" name="quiz-1">
+                <h2>Module 1 Quiz: Introduction to Credit</h2>
+                <p>Complete the quiz to get credit for this module! Please note that the free response reflection question needs a minimum of 100 characters. Upon submitting, wait for a pop-up to appear to confirm that your responses have been submitted successfully. A finEQUITY volunteer should get back to you with feedback within the next week. </p>
+                <input type="hidden" name="email" id="email">
+                <input type="hidden" name="name" id="name">
+                <label for="question1"><b>1. </b>Finish this sentence: Credit is a form of... </label>
+                <select name="question1" id="question1" required>
+                    <option value=""></option>
+                    <option value="Investing">Investing</option>
+                    <option value="Tax Information">Tax Information</option>
+                    <option value="Borrowing">Borrowing</option>
+                    <option value="Budgeting">Budgeting</option>
+                </select>
+                <br>
+                <br>
+                <label for="question2"><b>2. </b>Your reputation using credit may affect: </label>
+                <select name="question2" id="question2" required>
+                    <option value=""></option>
+                    <option value="The interest rate you pay on a loan">The interest rate you pay on a loan</option>
+                    <option value="Your ability to get approved for an apartment">Your ability to get approved for an apartment</option>
+                    <option value="All of the above">All of the above</option>
+                </select>
+                <br>
+                <br>
+                <label for="question3"><b>3. </b>Fill in the blank: __________ collect information used to calculate credit scores and information that remains on your credit report. </label>
+                <select name="question3" id="question3" required>
+                    <option value=""></option>
+                    <option value="Credit bureaus">Credit bureaus</option>
+                    <option value="Individual lenders">Individual lenders</option>
+                    <option value="Federal government">Federal government</option>
+                    <option value="All of the above">All of the above</option>
+                </select>
+                <br>
+                <br>
+                <label for="question4"><b>4. </b>Which one of the following companies below is NOT one of the main credit bureaus: </label>
+                <select name="question4" id="question4" required>
+                    <option value=""></option>
+                    <option value="TransUnion">TransUnion</option>
+                    <option value="Mastercard">Mastercard</option>
+                    <option value="Experian">Experian</option>
+                    <option value="Equifax">Equifax</option>
+                </select>
+                <br>
+                <br>
+                <label for="question5"><b>5. </b>Finish this sentence: Lenders use credit scores and reports to... </label>
+                <select name="question5" id="question5" required>
+                    <option value=""></option>
+                    <option value="Decide whether or not to lend money or to decline your request to borrow money">Decide whether or not to lend money or to decline your request to borrow money</option>
+                    <option value="Determine how much interest they'll charge you">Determine how much interest they'll charge you</option>
+                    <option value="Determine how much money they will let you borrow">Determine how much money they will let you borrow</option>
+                    <option value="All of the above">All of the above</option>
+                    <option value="None of the above">None of the above</option>
+                </select>
+                <br>
+                <br>
+                <label for="question6"><b>6. </b>Banks or other lenders will look at your credit report and credit score to determine your trustworthiness (i.e. whether they can trust you to repay a debt). True or false? </label>
+                <select name="question6" id="question6" required>
+                    <option value=""></option>
+                    <option value="True">True</option>
+                    <option value="False">False</option>
+                </select>
+                <br>
+                <br>
+                <label for="question7"><b>7. </b>With a charge card, I can carry the balance I owe that month over to the next month. True or false? </label>
+                <select name="question7" id="question7" required>
+                    <option value=""></option>
+                    <option value="True">True</option>
+                    <option value="False">False</option>
+                </select>
+                <br>
+                <br>
+                <label for="question8"><b>8. </b>Which item below is NOT an example of a finance charge? </label>
+                <select name="question8" id="question8" required>
+                    <option value=""></option>
+                    <option value="Interest charge">Interest charge</option>
+                    <option value="Late fees">Late fees</option>
+                    <option value="Balance">Balance</option>
+                </select>
+                <br>
+                <br>
+                <label for="question9"><b>9. </b>Payday loans are loans that are easy to acquire and have extremely low rates of interest. True or false? </label>
+                <select name="question9" id="question9" required>
+                    <option value=""></option>
+                    <option value="True">True</option>
+                    <option value="False">False</option>
+                </select>
+                <br>
+                <br>
+                <label for="question10"><b>10. </b>Anyone can look at your credit report (even your neighbor) . Generally, those who want to view your credit report do not need your permission to view your credit report and your credit score. True or false? </label>
+                <select name="question10" id="question10" required>
+                    <option value=""></option>
+                    <option value="True">True</option>
+                    <option value="False">False</option>
+                </select>
+                <br>
+                <br>
+                <label for="question11"><b>11. </b>While not very common, there are some nonprofit lenders who will charge very low interest rates. And there are also a small number of nonprofit lenders who may even charge no interest. True or false? </label>
+                <select name="question11" id="question11" required>
+                    <option value=""></option>
+                    <option value="True">True</option>
+                    <option value="False">False</option>
+                </select>
+                <br>
+                <br>
+                <label for="question12"><b>12. </b>Every lender is going to charge you the same rate of interest on a loan. True or false? </label>
+                <select name="question12" id="question12" required>
+                    <option value=""></option>
+                    <option value="True">True</option>
+                    <option value="False">False</option>
+                </select>
+                <br>
+                <br>
+                <label for="question13"><b>13. </b>Service credit means that you are not borrowing money; instead you are receiving a service that you pay for at the end of the month. Which one of these is not an example of a type of service credit? </label>
+                <select name="question13" id="question13" required>
+                    <option value=""></option>
+                    <option value="Gym membership">Gym membership</option>
+                    <option value="Utility bill (electric bill)">Utility bill (electric bill)</option>
+                    <option value="VISA credit card">VISA credit card</option>
+                    <option value="Cell phone plan">Cell phone plan</option>
+                </select>
+                <br>
+                <br>
+                <label for="question14"><b>14. </b>Fill in the blank: __________ is the additional fee that lenders charge you for borrowing money. It is one way lenders can make a profit when allowing you to use their money. You can avoid it completely on a credit card if you pay off your balance before your monthly due date. </label>
+                <select name="question14" id="question14" required>
+                    <option value=""></option>
+                    <option value="Debt">Debt</option>
+                    <option value="Pay day loan">Pay day loan</option>
+                    <option value="Credit union">Credit union</option>
+                    <option value="Interest">Interest</option>
+                </select>
+                <br>
+                <br>
+                <p><b>Reflection: </b>Have you used credit before? What has been your experience? And lastly, did you learn anything new from this module? </p>
+                <textarea name="reflection" rows="4" placeholder="Your Message" minlength="100"></textarea>
+                <br>
+                <br>
+                <input type="submit" value="Submit" id="submit">
+            </form>
+        </div>
+    </div>
+</div>
+
+<script>
+function adjustZoom() {
+  var desiredZoom = window.innerWidth / 1500;
+  document.body.style.zoom = desiredZoom;
+}
+
+window.addEventListener("click", function (event) {
+   if (document.getElementById("avatar").contains(event.target)) {
+        document.getElementById("LogoutBox").style.display = "flex";
+   }
+   else {
+        document.getElementById("LogoutBox").style.display = "none";
+   }
+   if (document.getElementById("LogoutBox").contains(event.target)) {
+        localStorage.removeItem('user');
+        window.location.href = "/";
+   }
+});
+
+const scriptURL = 'https://script.google.com/macros/s/AKfycbwm7qPOYD7K7xoVRD5sH7PFOqvgcyLPkdg8Rj1WuP2QrXEPq8iRzAJJ96cT_7gEO9Ro/exec'
+
+const form = document.forms['quiz-1']
+
+form.addEventListener('submit', e => {
+  e.preventDefault()
+  fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+  .then(response => alert("Thank you! Your form was submitted successfully; expect an email within the next week from a finEQUITY member with feedback. In the meantime, please continue on to Lesson 2." ))
+  .then(() => { window.location.reload(); })
+  .catch(error => console.error('Error!', error.message))
+})
+
+window.onload = function() {
+  if (!localStorage.getItem('user')) {
+    window.location.href = "/";
+  }
+  adjustZoom();
+  window.addEventListener('resize', adjustZoom);
+  document.getElementById('avatar').src = JSON.parse(localStorage.getItem('user')).picture;
+  document.getElementById('email').value = JSON.parse(localStorage.getItem('user')).email;
+  document.getElementById('name').value = JSON.parse(localStorage.getItem('user')).name;
+};
+</script>
+</body>
+</html>

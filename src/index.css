@@ -11,3 +11,209 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.desktop {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  height: 337px;
+}
+
+.desktop .finequity-logo {
+  height: 337px;
+  width: 600px;
+  display: flex;
+  justify-content: center;
+}
+
+#signInDiv {
+    justify-content: center;
+    display: flex;
+}
+
+.desktop .div {
+  background-color: #ffffff;
+  border: 1px none;
+  height: 100vh;
+  overflow: auto;
+  position: relative;
+  width: min(1440px, 100vw);
+  display:inline-block;
+}
+
+.desktop .img {
+  height: 53px;
+  left: 40px;
+  object-fit: cover;
+  position: absolute;
+  top: 40px;
+  width: 250px;
+}
+
+.desktop .overlap {
+  background-image: "public/assets/Rectangle.png";
+  background-size: 100% 100%;
+  height: 43px;
+  left: 36px;
+  position: absolute;
+  top: 186px;
+  width: 195px;
+}
+
+.desktop .text-wrapper {
+  color: #2c7cf4;
+  font-family: "Noto Sans-Regular", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  left: 19px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 8px;
+}
+
+.desktop .overlap-group {
+  background-image: "public/assets/Rectangle.png";
+  background-size: 100% 100%;
+  height: 43px;
+  left: 36px;
+  position: absolute;
+  top: 140px;
+  width: 195px;
+}
+
+.desktop .div-wrapper {
+  background-image: "public/assets/Rectangle.png";
+  background-size: 100% 100%;
+  height: 43px;
+  left: 36px;
+  position: absolute;
+  top: 278px;
+  width: 195px;
+}
+
+.desktop .overlap-2 {
+  background-image: "public/assets/Rectangle.png";
+  background-size: 100% 100%;
+  height: 43px;
+  left: 36px;
+  position: absolute;
+  top: 232px;
+  width: 195px;
+}
+
+.desktop .overlap-group-2 {
+  background-image: "public/assets/Rectangle.png";
+  background-size: 100% 100%;
+  height: 43px;
+  left: 36px;
+  position: absolute;
+  top: 370px;
+  width: 195px;
+}
+
+.desktop .overlap-3 {
+  background-image: "public/assets/Rectangle.png";
+  background-size: 100% 100%;
+  height: 43px;
+  left: 36px;
+  position: absolute;
+  top: 324px;
+  width: 195px;
+}
+
+.desktop .overlap-4 {
+  background-image: "public/assets/Rectangle.png";
+  background-size: 100% 100%;
+  height: 43px;
+  left: 36px;
+  position: absolute;
+  top: 462px;
+  width: 195px;
+}
+
+.desktop .overlap-5 {
+  background-image: "public/assets/Rectangle.png";
+  background-size: 100% 100%;
+  height: 43px;
+  left: 36px;
+  position: absolute;
+  top: 508px;
+  width: 195px;
+}
+
+.desktop .overlap-6 {
+  background-image: "public/assets/Rectangle.png";
+  background-size: 100% 100%;
+  height: 43px;
+  left: 36px;
+  position: absolute;
+  top: 554px;
+  width: 195px;
+}
+
+.desktop .overlap-7 {
+  background-image: "public/assets/Rectangle.png";
+  background-size: 100% 100%;
+  height: 43px;
+  left: 36px;
+  position: absolute;
+  top: 416px;
+  width: 195px;
+}
+
+.desktop .element {
+  height: 647px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 6px;
+  width: 500px;
+}
+
+.desktop .element-2 {
+  height: 963px;
+  left: 196px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 744px;
+}
+
+.desktop .element-3 {
+  height: 712px;
+  left: 278px;
+  object-fit: cover;
+  position: absolute;
+  top: 140px;
+  width: 550px;
+}
+
+.desktop .element-4 {
+  height: 712px;
+  left: 841px;
+  object-fit: cover;
+  position: absolute;
+  top: 140px;
+  width: 550px;
+}
+
+.desktop .element-5 {
+  height: 27px;
+  left: 238px;
+  object-fit: cover;
+  position: absolute;
+  top: 152px;
+  width: 27px;
+}
+
+.desktop .download {
+  height: 27px;
+  left: 1404px;
+  object-fit: cover;
+  position: absolute;
+  top: 152px;
+  width: 27px;
+}

@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>finEQUITY: Lesson 6 Quiz</title>
+</head>
+<style>
+
+.desktop {
+ background-color: #ffffff;
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+ width: 100%;
+}
+
+.desktop .div {
+ background-color: #ffffff;
+ border: 1px none;
+ height: 1210px;
+ overflow-x: auto;
+ overflow-y: hidden;
+ position: relative;
+ width: 1440px;
+ display:inline-block;
+}
+
+.desktop .img {
+ height: 53px;
+ left: 40px;
+ object-fit: cover;
+ position: absolute;
+ top: 40px;
+ width: 250px;
+}
+
+.desktop #avatar {
+ border-radius: 26.61px;
+ height: 53px;
+ left: 1347px;
+ position: absolute;
+ top: 40px;
+ width: 53px;
+ border: 1.5px solid rgba(44, 124, 244, 1);
+ cursor: pointer;
+}
+
+.desktop .text-wrapper {
+ color: #2c7cf4;
+ font-family: "Noto Sans-Regular", Helvetica;
+ font-size: 20px;
+ font-weight: 400;
+ left: 19px;
+ letter-spacing: 0;
+ line-height: normal;
+ position: absolute;
+ top: 6px;
+}
+
+.desktop .lesson1 {
+ background-size: 100% 100%;
+ height: 43px;
+ left: 36px;
+ position: absolute;
+ top: 140px;
+ width: 195px;
+}
+
+.desktop .lesson2 {
+ background-size: 100% 100%;
+ height: 43px;
+ left: 36px;
+ position: absolute;
+ top: 186px;
+ width: 195px;
+}
+
+.desktop .lesson3 {
+ background-size: 100% 100%;
+ height: 43px;
+ left: 36px;
+ position: absolute;
+ top: 232px;
+ width: 195px;
+}
+
+.desktop .lesson4 {
+ background-size: 100% 100%;
+ height: 43px;
+ left: 36px;
+ position: absolute;
+ top: 278px;
+ width: 195px;
+}
+
+.desktop .lesson5 {
+ background-size: 100% 100%;
+ height: 43px;
+ left: 36px;
+ position: absolute;
+ top: 324px;
+ width: 195px;
+}
+
+.desktop .lesson6 {
+ background-size: 100% 100%;
+ height: 43px;
+ left: 36px;
+ position: absolute;
+ top: 370px;
+ width: 195px;
+}
+
+.desktop .lesson7 {
+ background-size: 100% 100%;
+ height: 43px;
+ left: 36px;
+ position: absolute;
+ top: 416px;
+ width: 195px;
+}
+
+.desktop .lesson8 {
+ background-size: 100% 100%;
+ height: 43px;
+ left: 36px;
+ position: absolute;
+ top: 462px;
+ width: 195px;
+}
+
+.desktop .closing {
+ background-size: 100% 100%;
+ height: 43px;
+ left: 36px;
+ position: absolute;
+ top: 508px;
+ width: 195px;
+}
+
+.desktop .leftarrow {
+ height: 27px;
+ left: 238px;
+ object-fit: cover;
+ position: absolute;
+ top: 152px;
+ width: 27px;
+}
+
+.desktop #LogoutBox {
+ background-size: 100% 100%;
+ height: 43px;
+ left: 1296px;
+ position: absolute;
+ top: 98px;
+ width: 108px;
+ display: none;
+ cursor: pointer;
+}
+
+.desktop .lesson1:hover {
+ outline: 5px solid rgba(44, 124, 244, 1);
+ outline-offset: -5px;
+ outline-style: outset;
+}
+
+.desktop .lesson2:hover {
+ outline: 5px solid rgba(44, 124, 244, 1);
+ outline-offset: -5px;
+ outline-style: outset;
+}
+
+.desktop .lesson3:hover {
+ outline: 5px solid rgba(44, 124, 244, 1);
+ outline-offset: -5px;
+ outline-style: outset;
+}
+
+.desktop .lesson4:hover {
+ outline: 5px solid rgba(44, 124, 244, 1);
+ outline-offset: -5px;
+ outline-style: outset;
+}
+
+.desktop .lesson5:hover {
+ outline: 5px solid rgba(44, 124, 244, 1);
+ outline-offset: -5px;
+ outline-style: outset;
+}
+
+.desktop .lesson6:hover {
+ outline: 5px solid rgba(44, 124, 244, 1);
+ outline-offset: -5px;
+ outline-style: outset;
+}
+
+.desktop .lesson7:hover {
+ outline: 5px solid rgba(44, 124, 244, 1);
+ outline-offset: -5px;
+ outline-style: outset;
+}
+
+.desktop .lesson8:hover {
+ outline: 5px solid rgba(44, 124, 244, 1);
+ outline-offset: -5px;
+ outline-style: outset;
+}
+
+.desktop .closing:hover {
+ outline: 5px solid rgba(44, 124, 244, 1);
+ outline-offset: -5px;
+ outline-style: outset;
+}
+
+.desktop .quiz {
+  height: 800px;
+  left: 278px;
+  object-fit: cover;
+  position: absolute;
+  top: 140px;
+  width: 1113px;
+  font-family: "Noto Sans-Regular", Helvetica;
+}
+
+textarea {
+	width: 100%;
+	padding: 10px;
+	font-family: "Noto Sans-Regular", Helvetica;
+	font-size: 16px;
+    font-weight: 400;
+}
+</style>
+<body>
+<div class="desktop">
+    <div class="div">
+        <a href = "welcome.html"> <img class="img" alt="Img" src="https://givebutter.s3.amazonaws.com/profiles/PekZmCLpFhQ3kyAX56kBXtwJTFF5oj3bSgPqVvkn.png" /> </a>
+        <a href = "lesson2.html">
+            <div class="lesson2">
+                <img src="assets/Rectangle.png" />
+                <div class="text-wrapper">Lesson 2</div>
+            </div>
+        </a>
+        <a href = "lesson1.html">
+            <div class="lesson1">
+                <img src="assets/Rectangle.png" />
+                <div class="text-wrapper">Lesson 1</div>
+            </div>
+        </a>
+        <a href = "lesson4.html">
+            <div class="lesson4">
+                <img src="assets/Rectangle.png" />
+                <div class="text-wrapper">Lesson 4</div>
+            </div>
+        </a>
+        <a href = "lesson3.html">
+            <div class="lesson3">
+                <img src="assets/Rectangle.png" />
+                <div class="text-wrapper">Lesson 3</div>
+            </div>
+        </a>
+        <a href = "lesson6.html">
+            <div class="lesson6">
+                <img src="assets/Rectangle.png" />
+                <div class="text-wrapper">Lesson 6</div>
+            </div>
+        </a>
+        <a href = "lesson5.html">
+            <div class="lesson5">
+                <img src="assets/Rectangle.png" />
+                <div class="text-wrapper">Lesson 5</div>
+            </div>
+        </a>
+        <a href = "lesson8.html">
+            <div class="lesson8">
+                <img src="assets/Rectangle.png" />
+                <div class="text-wrapper">Lesson 8</div>
+            </div>
+        </a>
+        <a href = "closing.html">
+            <div class="closing">
+                <img src="assets/Rectangle.png" />
+                <div class="text-wrapper">Closing Remarks</div>
+            </div>
+        </a>
+        <a href = "lesson7.html">
+            <div class="lesson7">
+                <img src="assets/Rectangle.png" />
+                <div class="text-wrapper">Lesson 7</div>
+            </div>
+        </a>
+        <div id="LogoutBox">
+            <img src="assets/LogoutRectangle.png" />
+            <div class="text-wrapper">Logout</div>
+        </div>
+        <a href = "lesson6-4.html"> <img class="leftarrow" alt="a" src="https://cdn.iconscout.com/icon/free/png-512/free-angle-left-b-1966289-1659461.png?f=avif&w=512" /> </a>
+        <img id="avatar"/>
+        <div class="quiz">
+            <form method="post" action="https://script.google.com/macros/s/AKfycbw6ZEIT0yJDpc7fI0XS4F2uqrehy36a2fdD33n2ytTklTqgA3ATchvpJtLz8px35OO2/exec" name="quiz-1">
+                <h2>Module 6 Quiz: Reading a Credit Report</h2>
+                <p>Complete the quiz to get credit for this module! Please note that the free response reflection question needs a minimum of 100 characters. Upon submitting, wait for a pop-up to appear to confirm that your responses have been submitted successfully. A finEQUITY volunteer should get back to you with feedback within the next week. </p>
+                <p><b>NOTE:</b> These questions refer to the example credit report you went through in the module! We encourage you to look back at the report while answering these questions.</p>
+                <input type="hidden" name="email" id="email">
+                <input type="hidden" name="name" id="name">
+                <label for="question1"><b>1. </b>Who does this credit report belong to? </label>
+                <select name="question1" id="question1" required>
+                    <option value=""></option>
+                    <option value="Ray E. Davis">Ray E. Davis</option>
+                    <option value="Ray Lewis">Ray Lewis</option>
+                </select>
+                <br>
+                <br>
+                <label for="question2"><b>2. </b>Where does he live? </label>
+                <select name="question2" id="question2" required>
+                    <option value=""></option>
+                    <option value="New York, New York">New York, New York</option>
+                    <option value="Washington, D.C.">Washington, D.C.</option>
+                    <option value="Mytown, NE">Mytown, NE</option>
+                    <option value="Miami, FL">Miami, FL</option>
+                </select>
+                <br>
+                <br>
+                <label for="question3"><b>3. </b>Does he have anything on his Negative Items list section? If yes, what? </label>
+                <select name="question3" id="question3" required>
+                    <option value=""></option>
+                    <option value="Yes, he had an $18,930 mortgage he was not able to repay">Yes, he had an $18,930 mortgage he was not able to repay</option>
+                    <option value="Yes, a $17,500 auto loan he was not able to repay that did not go into collections">Yes, a $17,500 auto loan he was not able to repay that did not go into collections</option>
+                    <option value="Yes, a $2,780 line of credit he was not able to repay that went into collections">Yes, a $2,780 line of credit he was not able to repay that went into collections</option>
+                </select>
+                <br>
+                <br>
+                <label for="question4"><b>4. </b>Is he paying all of his bills on time? </label>
+                <select name="question4" id="question4" required>
+                    <option value=""></option>
+                    <option value="None of his payments have been made on-time payments">None of his payments have been made on-time payments</option>
+                    <option value="All of his payments have been made on time">All of his payments have been made on time</option>
+                    <option value="Most of his payments have been made on time">Most of his payments have been made on time</option>
+                </select>
+                <br>
+                <br>
+                <label for="question5"><b>5. </b>What kinds of credit acounds does Ray currently have open? </label>
+                <select name="question5" id="question5" required>
+                    <option value=""></option>
+                    <option value="Automobile Installment Loan">Automobile Installment Loan</option>
+                    <option value="Revolving Credit (credit card) from a Bank">Revolving Credit (credit card) from a Bank</option>
+                    <option value="Mortgage from a Bank">Mortgage from a Bank</option>
+                    <option value="Both B & C">Both B & C</option>
+                </select>
+                <br>
+                <br>
+                <label for="question6"><b>6. </b>Has Ray ever filed for bankruptcy? </label>
+                <select name="question6" id="question6" required>
+                    <option value=""></option>
+                    <option value="Yes">Yes</option>
+                    <option value="No">No</option>
+                </select>
+                <br>
+                <br>
+                <label for="question7"><b>7. </b>As you know, Ray has an active and open credit card with Bank of America. Since he opened the card in July of 2018, has Ray ever paid his credit card bill more than 60 days after the due date? </label>
+                <select name="question7" id="question7" required>
+                    <option value=""></option>
+                    <option value="Yes, he has been more than 60 days late in paying his credit card bill.">Yes, he has been more than 60 days late in paying his credit card bill.</option>
+                    <option value="No, he has never been more than 60 days late in paying his credit card bill.">No, he has never been more than 60 days late in paying his credit card bill.</option>
+                </select>
+                <br>
+                <br>
+                <label for="question8"><b>8. </b>What does his inquiries section tell you? </label>
+                <select name="question8" id="question8" required>
+                    <option value=""></option>
+                    <option value="He was reviewing his own credit report recently">He was reviewing his own credit report recently</option>
+                    <option value="He was applying for mortgages recently">He was applying for mortgages recently</option>
+                    <option value="He was applying for jobs recently">He was applying for jobs recently</option>
+                    <option value="He is in debt currently">He is in debt currently</option>
+                </select>
+                <br>
+                <br>
+                <label for="question9"><b>9. </b>Which of the following pieces of information on Ray’s credit report would be the most serious red flag that might make a bank choose not to give Ray a loan: </label>
+                <select name="question9" id="question9" required>
+                    <option value=""></option>
+                    <option value="One hard inquiry in the past 12 months">One hard inquiry in the past 12 months</option>
+                    <option value="One payment 30 days past due six years ago">One payment 30 days past due six years ago</option>
+                    <option value="A charge off or a unpaid debt sent to collections">A charge off or a unpaid debt sent to collections</option>
+                </select>
+                <br>
+                <br>
+                <label for="question10"><b>10. </b>If a landlord requests access to review your credit report they would be able to see any and all soft inquiries (soft pulls) you have had in the past two years. True or false? </label>
+                <select name="question10" id="question10" required>
+                    <option value=""></option>
+                    <option value="True">True</option>
+                    <option value="False">False</option>
+                </select>
+                <br>
+                <br>
+                <p><b>Reflection: </b>Below are a list of things that can show up on a credit report and will likely result in a landlords or landlord deciding that they should reject your application:<p>
+                    <ul>
+                        <li>Recent late payments (especially within the last 6 months)</li>
+                        <li>Serious missed or late payments. Missed payments are serious if it has been more than 90 days
+                        late.</li>
+                        <li>Maxing out a credit card/ using the entire credit limit</li>
+                        <li>High utilization rate</li>
+                        <li>Having multiple credit cards that all are highly used</li>
+                        <li>Currently borrowing a significant amount of debt</li>
+                        <li>Very little credit history or a short credit history</li>
+                        <li>Many recent hard inquiries</li>
+                    </ul>
+                    <p>You have already seen Ray’s credit report above. If you were a bank, how would you feel about lending money $60,000 to Ray? Explain your reasoning. </p>
+                <textarea name="reflection" rows="4" placeholder="Your Message" minlength="100"></textarea>
+                <br>
+                <br>
+                <input type="submit" value="Submit" id="submit">
+            </form>
+        </div>
+    </div>
+</div>
+
+<script>
+function adjustZoom() {
+  var desiredZoom = window.innerWidth / 1500;
+  document.body.style.zoom = desiredZoom;
+}
+
+window.addEventListener("click", function (event) {
+   if (document.getElementById("avatar").contains(event.target)) {
+        document.getElementById("LogoutBox").style.display = "flex";
+   }
+   else {
+        document.getElementById("LogoutBox").style.display = "none";
+   }
+   if (document.getElementById("LogoutBox").contains(event.target)) {
+        localStorage.removeItem('user');
+        window.location.href = "/";
+   }
+});
+
+const scriptURL = 'https://script.google.com/macros/s/AKfycbw6ZEIT0yJDpc7fI0XS4F2uqrehy36a2fdD33n2ytTklTqgA3ATchvpJtLz8px35OO2/exec'
+
+const form = document.forms['quiz-1']
+
+form.addEventListener('submit', e => {
+  e.preventDefault()
+  fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+  .then(response => alert("Thank you! Your form was submitted successfully; expect an email within the next week from a finEQUITY member with feedback. In the meantime, please continue on to Lesson 7." ))
+  .then(() => { window.location.reload(); })
+  .catch(error => console.error('Error!', error.message))
+})
+
+window.onload = function() {
+  if (!localStorage.getItem('user')) {
+    window.location.href = "/";
+  }
+  adjustZoom();
+  window.addEventListener('resize', adjustZoom);
+  document.getElementById('avatar').src = JSON.parse(localStorage.getItem('user')).picture;
+  document.getElementById('email').value = JSON.parse(localStorage.getItem('user')).email;
+  document.getElementById('name').value = JSON.parse(localStorage.getItem('user')).name;
+};
+</script>
+</body>
+</html>

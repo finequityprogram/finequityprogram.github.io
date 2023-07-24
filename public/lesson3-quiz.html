@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>finEQUITY: Lesson 3 Quiz</title>
+</head>
+<style>
+
+.desktop {
+ background-color: #ffffff;
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+ width: 100%;
+}
+
+.desktop .div {
+ background-color: #ffffff;
+ border: 1px none;
+ height: 1085px;
+ overflow-x: auto;
+ overflow-y: hidden;
+ position: relative;
+ width: 1440px;
+ display:inline-block;
+}
+
+.desktop .img {
+ height: 53px;
+ left: 40px;
+ object-fit: cover;
+ position: absolute;
+ top: 40px;
+ width: 250px;
+}
+
+.desktop #avatar {
+ border-radius: 26.61px;
+ height: 53px;
+ left: 1347px;
+ position: absolute;
+ top: 40px;
+ width: 53px;
+ border: 1.5px solid rgba(44, 124, 244, 1);
+ cursor: pointer;
+}
+
+.desktop .text-wrapper {
+ color: #2c7cf4;
+ font-family: "Noto Sans-Regular", Helvetica;
+ font-size: 20px;
+ font-weight: 400;
+ left: 19px;
+ letter-spacing: 0;
+ line-height: normal;
+ position: absolute;
+ top: 6px;
+}
+
+.desktop .lesson1 {
+ background-size: 100% 100%;
+ height: 43px;
+ left: 36px;
+ position: absolute;
+ top: 140px;
+ width: 195px;
+}
+
+.desktop .lesson2 {
+ background-size: 100% 100%;
+ height: 43px;
+ left: 36px;
+ position: absolute;
+ top: 186px;
+ width: 195px;
+}
+
+.desktop .lesson3 {
+ background-size: 100% 100%;
+ height: 43px;
+ left: 36px;
+ position: absolute;
+ top: 232px;
+ width: 195px;
+}
+
+.desktop .lesson4 {
+ background-size: 100% 100%;
+ height: 43px;
+ left: 36px;
+ position: absolute;
+ top: 278px;
+ width: 195px;
+}
+
+.desktop .lesson5 {
+ background-size: 100% 100%;
+ height: 43px;
+ left: 36px;
+ position: absolute;
+ top: 324px;
+ width: 195px;
+}
+
+.desktop .lesson6 {
+ background-size: 100% 100%;
+ height: 43px;
+ left: 36px;
+ position: absolute;
+ top: 370px;
+ width: 195px;
+}
+
+.desktop .lesson7 {
+ background-size: 100% 100%;
+ height: 43px;
+ left: 36px;
+ position: absolute;
+ top: 416px;
+ width: 195px;
+}
+
+.desktop .lesson8 {
+ background-size: 100% 100%;
+ height: 43px;
+ left: 36px;
+ position: absolute;
+ top: 462px;
+ width: 195px;
+}
+
+.desktop .closing {
+ background-size: 100% 100%;
+ height: 43px;
+ left: 36px;
+ position: absolute;
+ top: 508px;
+ width: 195px;
+}
+
+.desktop .leftarrow {
+ height: 27px;
+ left: 238px;
+ object-fit: cover;
+ position: absolute;
+ top: 152px;
+ width: 27px;
+}
+
+.desktop #LogoutBox {
+ background-size: 100% 100%;
+ height: 43px;
+ left: 1296px;
+ position: absolute;
+ top: 98px;
+ width: 108px;
+ display: none;
+ cursor: pointer;
+}
+
+.desktop .lesson1:hover {
+ outline: 5px solid rgba(44, 124, 244, 1);
+ outline-offset: -5px;
+ outline-style: outset;
+}
+
+.desktop .lesson2:hover {
+ outline: 5px solid rgba(44, 124, 244, 1);
+ outline-offset: -5px;
+ outline-style: outset;
+}
+
+.desktop .lesson3:hover {
+ outline: 5px solid rgba(44, 124, 244, 1);
+ outline-offset: -5px;
+ outline-style: outset;
+}
+
+.desktop .lesson4:hover {
+ outline: 5px solid rgba(44, 124, 244, 1);
+ outline-offset: -5px;
+ outline-style: outset;
+}
+
+.desktop .lesson5:hover {
+ outline: 5px solid rgba(44, 124, 244, 1);
+ outline-offset: -5px;
+ outline-style: outset;
+}
+
+.desktop .lesson6:hover {
+ outline: 5px solid rgba(44, 124, 244, 1);
+ outline-offset: -5px;
+ outline-style: outset;
+}
+
+.desktop .lesson7:hover {
+ outline: 5px solid rgba(44, 124, 244, 1);
+ outline-offset: -5px;
+ outline-style: outset;
+}
+
+.desktop .lesson8:hover {
+ outline: 5px solid rgba(44, 124, 244, 1);
+ outline-offset: -5px;
+ outline-style: outset;
+}
+
+.desktop .closing:hover {
+ outline: 5px solid rgba(44, 124, 244, 1);
+ outline-offset: -5px;
+ outline-style: outset;
+}
+
+.desktop .quiz {
+  height: 800px;
+  left: 278px;
+  object-fit: cover;
+  position: absolute;
+  top: 140px;
+  width: 1113px;
+  font-family: "Noto Sans-Regular", Helvetica;
+}
+
+textarea {
+	width: 100%;
+	padding: 10px;
+	font-family: "Noto Sans-Regular", Helvetica;
+	font-size: 16px;
+    font-weight: 400;
+}
+</style>
+<body>
+<div class="desktop">
+    <div class="div">
+        <a href = "welcome.html"> <img class="img" alt="Img" src="https://givebutter.s3.amazonaws.com/profiles/PekZmCLpFhQ3kyAX56kBXtwJTFF5oj3bSgPqVvkn.png" /> </a>
+        <a href = "lesson2.html">
+            <div class="lesson2">
+                <img src="assets/Rectangle.png" />
+                <div class="text-wrapper">Lesson 2</div>
+            </div>
+        </a>
+        <a href = "lesson1.html">
+            <div class="lesson1">
+                <img src="assets/Rectangle.png" />
+                <div class="text-wrapper">Lesson 1</div>
+            </div>
+        </a>
+        <a href = "lesson4.html">
+            <div class="lesson4">
+                <img src="assets/Rectangle.png" />
+                <div class="text-wrapper">Lesson 4</div>
+            </div>
+        </a>
+        <a href = "lesson3.html">
+            <div class="lesson3">
+                <img src="assets/Rectangle.png" />
+                <div class="text-wrapper">Lesson 3</div>
+            </div>
+        </a>
+        <a href = "lesson6.html">
+            <div class="lesson6">
+                <img src="assets/Rectangle.png" />
+                <div class="text-wrapper">Lesson 6</div>
+            </div>
+        </a>
+        <a href = "lesson5.html">
+            <div class="lesson5">
+                <img src="assets/Rectangle.png" />
+                <div class="text-wrapper">Lesson 5</div>
+            </div>
+        </a>
+        <a href = "lesson8.html">
+            <div class="lesson8">
+                <img src="assets/Rectangle.png" />
+                <div class="text-wrapper">Lesson 8</div>
+            </div>
+        </a>
+        <a href = "closing.html">
+            <div class="closing">
+                <img src="assets/Rectangle.png" />
+                <div class="text-wrapper">Closing Remarks</div>
+            </div>
+        </a>
+        <a href = "lesson7.html">
+            <div class="lesson7">
+                <img src="assets/Rectangle.png" />
+                <div class="text-wrapper">Lesson 7</div>
+            </div>
+        </a>
+        <div id="LogoutBox">
+            <img src="assets/LogoutRectangle.png" />
+            <div class="text-wrapper">Logout</div>
+        </div>
+        <a href = "lesson3-8.html"> <img class="leftarrow" alt="a" src="https://cdn.iconscout.com/icon/free/png-512/free-angle-left-b-1966289-1659461.png?f=avif&w=512" /> </a>
+        <img id="avatar"/>
+        <div class="quiz">
+            <form method="post" action="https://script.google.com/macros/s/AKfycbwm7qPOYD7K7xoVRD5sH7PFOqvgcyLPkdg8Rj1WuP2QrXEPq8iRzAJJ96cT_7gEO9Ro/exec" name="quiz-1">
+                <h2>Module 3 Quiz: Effects of Credit Checks</h2>
+                <p>Complete the quiz to get credit for this module! Please note that the free response reflection question needs a minimum of 100 characters. Upon submitting, wait for a pop-up to appear to confirm that your responses have been submitted successfully. A finEQUITY volunteer should get back to you with feedback within the next week. </p>
+                <input type="hidden" name="email" id="email">
+                <input type="hidden" name="name" id="name">
+                <label for="question1"><b>1. </b>A company or a landlord would need your consent or approval before running a credit check. However, there is one exception. Which of the following represents the one exception? </label>
+                <select name="question1" id="question1" required>
+                    <option value=""></option>
+                    <option value="Credit card and loan companies can access your credit report in order to send you offers for their services in the mail">Credit card and loan companies can access your credit report in order to send you offers for their services in the mail</option>
+                    <option value="Your Uncle does not need your consent to see your credit report">Your Uncle does not need your consent to see your credit report</option>
+                    <option value="Your doctor does not need your consent to see your credit report">Your doctor does not need your consent to see your credit report</option>
+                </select>
+                <br>
+                <br>
+                <label for="question2"><b>2. </b>Offers and promotions sent to your email address or through letter in the mail from a credit card company or auto lender always have the best offers you can get (with the best rates and the lowest fees). True or false? </label>
+                <select name="question2" id="question2" required>
+                    <option value=""></option>
+                    <option value="True">True</option>
+                    <option value="False">False</option>
+                </select>
+                <br>
+                <br>
+                <label for="question3"><b>3. </b>A criminal background check has the same information an employer will see when they run a credit check. True or false? </label>
+                <select name="question3" id="question3" required>
+                    <option value=""></option>
+                    <option value="True">True</option>
+                    <option value="False">False</option>
+                </select>
+                <br>
+                <br>
+                <label for="question4"><b>4. </b>In some states, employers can decide to not offer you a job based on what they see on your credit report. True or false? </label>
+                <select name="question4" id="question4" required>
+                    <option value=""></option>
+                    <option value="True">True</option>
+                    <option value="False">False</option>
+                </select>
+                <br>
+                <br>
+                <label for="question5"><b>5. </b>When a potential employer runs a credit check, they can view both your credit score and your credit report. True or false? </label>
+                <select name="question5" id="question5" required>
+                    <option value=""></option>
+                    <option value="True">True</option>
+                    <option value="False">False</option>
+                </select>
+                <br>
+                <br>
+                <label for="question6"><b>6. </b>How can having no credit hurt you when you apply for health/medical insurance? </label>
+                <select name="question6" id="question6" required>
+                    <option value=""></option>
+                    <option value="Health insurance companies charge higher rates to people without credit (you will pay more for health insurance if you have no credit)">Health insurance companies charge higher rates to people without credit (you will pay more for health insurance if you have no credit)</option>
+                    <option value="Health insurance companies and the government use information found in a credit report to verify your identity when you apply via their online website">Health insurance companies and the government use information found in a credit report to verify your identity when you apply via their online website</option>
+                </select>
+                <br>
+                <br>
+                <label for="question7"><b>7. </b>Imagine that Tommy has a credit score of 589; 589 is considered to be “bad credit.” Tommy wants to apply for an auto loan. How will Tommy’s loan offer be different from a loan offered to someone with a good credit score? </label>
+                <select name="question7" id="question7" required>
+                    <option value=""></option>
+                    <option value="Tommy will get less time to repay back the loan">Tommy will get less time to repay back the loan</option>
+                    <option value="Tommy will get more time to repay back the loan">Tommy will get more time to repay back the loan</option>
+                    <option value="Tommy will get offered a lower interest rate">Tommy will get offered a lower interest rate</option>
+                </select>
+                <br>
+                <br>
+                <label for="question8"><b>8. </b>Imagine Tommy now tries to rent an apartment. Which of the following are things the landlord may do as a result of Tommy having “bad credit”? </label>
+                <select name="question8" id="question8" required>
+                    <option value=""></option>
+                    <option value="The landlord may charge Tommy more money upfront">The landlord may charge Tommy more money upfront</option>
+                    <option value="The landlord may require proof of enough savings to cover several months of rent">The landlord may require proof of enough savings to cover several months of rent</option>
+                    <option value="The landlord may require Tommy to get a co-signer">The landlord may require Tommy to get a co-signer</option>
+                    <option value="All of the above">All of the above</option>
+                </select>
+                <br>
+                <br>
+                <label for="question9"><b>9. </b>Which of the following service providers would NOT use credit scores to decide whether a person can use their service or product? </label>
+                <select name="question9" id="question9" required>
+                    <option value=""></option>
+                    <option value="Cell phone plan provider">Cell phone plan provider</option>
+                    <option value="A restaurant owner">A restaurant owner</option>
+                    <option value="A landlord">A landlord</option>
+                </select>
+                <br>
+                <br>
+                <label for="question10"><b>10. </b>Utility companies (that provide water, electricity, heat) will check your credit report before allowing you to sign up for their service. True or false? </label>
+                <select name="question10" id="question10" required>
+                    <option value=""></option>
+                    <option value="True">True</option>
+                    <option value="False">False</option>
+                </select>
+                <br>
+                <br>
+                <label for="question11"><b>11. </b>Student loans provided through a private company will NEVER run a credit check. True or false? </label>
+                <select name="question11" id="question11" required>
+                    <option value=""></option>
+                    <option value="True">True</option>
+                    <option value="False">False</option>
+                </select>
+                <br>
+                <br>
+                <label for="question12"><b>12. </b>Imagine you are a co-signer for a car loan. The car loan is for your best friend. Your best friend is not able to make on-time payments for a year, and then your best friend stops making payments altogether. The car rental company reports the missed payments to the credit bureaus. How will this impact you as the co-signer? </label>
+                <select name="question12" id="question12" required>
+                    <option value=""></option>
+                    <option value="There will be no change in your credit score (no change)">There will be no change in your credit score (no change)</option>
+                    <option value="Your credit score will go up (increase)">Your credit score will go up (increase)</option>
+                    <option value="Your credit score will go down (decrease)">Your credit score will go down (decrease)</option>
+                </select>
+                <br>
+                <br>
+                <p><b>Reflection: </b>Have you used credit before? What has been your experience? And lastly, did you learn anything new from this module? </p>
+                <textarea name="reflection" rows="4" placeholder="Your Message" minlength="100"></textarea>
+                <br>
+                <br>
+                <input type="submit" value="Submit" id="submit">
+            </form>
+        </div>
+    </div>
+</div>
+
+<script>
+function adjustZoom() {
+  var desiredZoom = window.innerWidth / 1500;
+  document.body.style.zoom = desiredZoom;
+}
+
+window.addEventListener("click", function (event) {
+   if (document.getElementById("avatar").contains(event.target)) {
+        document.getElementById("LogoutBox").style.display = "flex";
+   }
+   else {
+        document.getElementById("LogoutBox").style.display = "none";
+   }
+   if (document.getElementById("LogoutBox").contains(event.target)) {
+        localStorage.removeItem('user');
+        window.location.href = "/";
+   }
+});
+
+const scriptURL = 'https://script.google.com/macros/s/AKfycbxhIedDvZuv2XjQTz7eeLjUYXRtILmmjPfGvydPeUeMhosNt8xWvznsGE1XTjXoyv6RMg/exec'
+
+const form = document.forms['quiz-1']
+
+form.addEventListener('submit', e => {
+  e.preventDefault()
+  fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+  .then(response => alert("Thank you! Your form was submitted successfully; expect an email within the next week from a finEQUITY member with feedback. In the meantime, please continue on to Lesson 4." ))
+  .then(() => { window.location.reload(); })
+  .catch(error => console.error('Error!', error.message))
+})
+
+window.onload = function() {
+  if (!localStorage.getItem('user')) {
+    window.location.href = "/";
+  }
+  adjustZoom();
+  window.addEventListener('resize', adjustZoom);
+  document.getElementById('avatar').src = JSON.parse(localStorage.getItem('user')).picture;
+  document.getElementById('email').value = JSON.parse(localStorage.getItem('user')).email;
+  document.getElementById('name').value = JSON.parse(localStorage.getItem('user')).name;
+};
+</script>
+</body>
+</html>

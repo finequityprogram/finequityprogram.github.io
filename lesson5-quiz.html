@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>finEQUITY: Lesson 5 Quiz</title>
+</head>
+<style>
+
+.desktop {
+ background-color: #ffffff;
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+ width: 100%;
+}
+
+.desktop .div {
+ background-color: #ffffff;
+ border: 1px none;
+ height: 1070px;
+ overflow-x: auto;
+ overflow-y: hidden;
+ position: relative;
+ width: 1440px;
+ display:inline-block;
+}
+
+.desktop .img {
+ height: 53px;
+ left: 40px;
+ object-fit: cover;
+ position: absolute;
+ top: 40px;
+ width: 250px;
+}
+
+.desktop #avatar {
+ border-radius: 26.61px;
+ height: 53px;
+ left: 1347px;
+ position: absolute;
+ top: 40px;
+ width: 53px;
+ border: 1.5px solid rgba(44, 124, 244, 1);
+ cursor: pointer;
+}
+
+.desktop .text-wrapper {
+ color: #2c7cf4;
+ font-family: "Noto Sans-Regular", Helvetica;
+ font-size: 20px;
+ font-weight: 400;
+ left: 19px;
+ letter-spacing: 0;
+ line-height: normal;
+ position: absolute;
+ top: 6px;
+}
+
+.desktop .lesson1 {
+ background-size: 100% 100%;
+ height: 43px;
+ left: 36px;
+ position: absolute;
+ top: 140px;
+ width: 195px;
+}
+
+.desktop .lesson2 {
+ background-size: 100% 100%;
+ height: 43px;
+ left: 36px;
+ position: absolute;
+ top: 186px;
+ width: 195px;
+}
+
+.desktop .lesson3 {
+ background-size: 100% 100%;
+ height: 43px;
+ left: 36px;
+ position: absolute;
+ top: 232px;
+ width: 195px;
+}
+
+.desktop .lesson4 {
+ background-size: 100% 100%;
+ height: 43px;
+ left: 36px;
+ position: absolute;
+ top: 278px;
+ width: 195px;
+}
+
+.desktop .lesson5 {
+ background-size: 100% 100%;
+ height: 43px;
+ left: 36px;
+ position: absolute;
+ top: 324px;
+ width: 195px;
+}
+
+.desktop .lesson6 {
+ background-size: 100% 100%;
+ height: 43px;
+ left: 36px;
+ position: absolute;
+ top: 370px;
+ width: 195px;
+}
+
+.desktop .lesson7 {
+ background-size: 100% 100%;
+ height: 43px;
+ left: 36px;
+ position: absolute;
+ top: 416px;
+ width: 195px;
+}
+
+.desktop .lesson8 {
+ background-size: 100% 100%;
+ height: 43px;
+ left: 36px;
+ position: absolute;
+ top: 462px;
+ width: 195px;
+}
+
+.desktop .closing {
+ background-size: 100% 100%;
+ height: 43px;
+ left: 36px;
+ position: absolute;
+ top: 508px;
+ width: 195px;
+}
+
+.desktop .leftarrow {
+ height: 27px;
+ left: 238px;
+ object-fit: cover;
+ position: absolute;
+ top: 152px;
+ width: 27px;
+}
+
+.desktop #LogoutBox {
+ background-size: 100% 100%;
+ height: 43px;
+ left: 1296px;
+ position: absolute;
+ top: 98px;
+ width: 108px;
+ display: none;
+ cursor: pointer;
+}
+
+.desktop .lesson1:hover {
+ outline: 5px solid rgba(44, 124, 244, 1);
+ outline-offset: -5px;
+ outline-style: outset;
+}
+
+.desktop .lesson2:hover {
+ outline: 5px solid rgba(44, 124, 244, 1);
+ outline-offset: -5px;
+ outline-style: outset;
+}
+
+.desktop .lesson3:hover {
+ outline: 5px solid rgba(44, 124, 244, 1);
+ outline-offset: -5px;
+ outline-style: outset;
+}
+
+.desktop .lesson4:hover {
+ outline: 5px solid rgba(44, 124, 244, 1);
+ outline-offset: -5px;
+ outline-style: outset;
+}
+
+.desktop .lesson5:hover {
+ outline: 5px solid rgba(44, 124, 244, 1);
+ outline-offset: -5px;
+ outline-style: outset;
+}
+
+.desktop .lesson6:hover {
+ outline: 5px solid rgba(44, 124, 244, 1);
+ outline-offset: -5px;
+ outline-style: outset;
+}
+
+.desktop .lesson7:hover {
+ outline: 5px solid rgba(44, 124, 244, 1);
+ outline-offset: -5px;
+ outline-style: outset;
+}
+
+.desktop .lesson8:hover {
+ outline: 5px solid rgba(44, 124, 244, 1);
+ outline-offset: -5px;
+ outline-style: outset;
+}
+
+.desktop .closing:hover {
+ outline: 5px solid rgba(44, 124, 244, 1);
+ outline-offset: -5px;
+ outline-style: outset;
+}
+
+.desktop .quiz {
+  height: 800px;
+  left: 278px;
+  object-fit: cover;
+  position: absolute;
+  top: 140px;
+  width: 1113px;
+  font-family: "Noto Sans-Regular", Helvetica;
+}
+
+textarea {
+	width: 100%;
+	padding: 10px;
+	font-family: "Noto Sans-Regular", Helvetica;
+	font-size: 16px;
+    font-weight: 400;
+}
+</style>
+<body>
+<div class="desktop">
+    <div class="div">
+        <a href = "welcome.html"> <img class="img" alt="Img" src="https://givebutter.s3.amazonaws.com/profiles/PekZmCLpFhQ3kyAX56kBXtwJTFF5oj3bSgPqVvkn.png" /> </a>
+        <a href = "lesson2.html">
+            <div class="lesson2">
+                <img src="assets/Rectangle.png" />
+                <div class="text-wrapper">Lesson 2</div>
+            </div>
+        </a>
+        <a href = "lesson1.html">
+            <div class="lesson1">
+                <img src="assets/Rectangle.png" />
+                <div class="text-wrapper">Lesson 1</div>
+            </div>
+        </a>
+        <a href = "lesson4.html">
+            <div class="lesson4">
+                <img src="assets/Rectangle.png" />
+                <div class="text-wrapper">Lesson 4</div>
+            </div>
+        </a>
+        <a href = "lesson3.html">
+            <div class="lesson3">
+                <img src="assets/Rectangle.png" />
+                <div class="text-wrapper">Lesson 3</div>
+            </div>
+        </a>
+        <a href = "lesson6.html">
+            <div class="lesson6">
+                <img src="assets/Rectangle.png" />
+                <div class="text-wrapper">Lesson 6</div>
+            </div>
+        </a>
+        <a href = "lesson5.html">
+            <div class="lesson5">
+                <img src="assets/Rectangle.png" />
+                <div class="text-wrapper">Lesson 5</div>
+            </div>
+        </a>
+        <a href = "lesson8.html">
+            <div class="lesson8">
+                <img src="assets/Rectangle.png" />
+                <div class="text-wrapper">Lesson 8</div>
+            </div>
+        </a>
+        <a href = "closing.html">
+            <div class="closing">
+                <img src="assets/Rectangle.png" />
+                <div class="text-wrapper">Closing Remarks</div>
+            </div>
+        </a>
+        <a href = "lesson7.html">
+            <div class="lesson7">
+                <img src="assets/Rectangle.png" />
+                <div class="text-wrapper">Lesson 7</div>
+            </div>
+        </a>
+        <div id="LogoutBox">
+            <img src="assets/LogoutRectangle.png" />
+            <div class="text-wrapper">Logout</div>
+        </div>
+        <a href = "lesson5-7.html"> <img class="leftarrow" alt="a" src="https://cdn.iconscout.com/icon/free/png-512/free-angle-left-b-1966289-1659461.png?f=avif&w=512" /> </a>
+        <img id="avatar"/>
+        <div class="quiz">
+            <form method="post" action="https://script.google.com/macros/s/AKfycbz0zSiYySjCiFpANu2J_56q2bfs7BadKhkvXjfJHkMWs62x0ghpp78j-vc7-P4Kxakk/exec" name="quiz-1">
+                <h2>Module 5 Quiz: How to Build or Establish Credit</h2>
+                <p>Complete the quiz to get credit for this module! Please note that the free response reflection question needs a minimum of 100 characters. Upon submitting, wait for a pop-up to appear to confirm that your responses have been submitted successfully. A finEQUITY volunteer should get back to you with feedback within the next week. </p>
+                <input type="hidden" name="email" id="email">
+                <input type="hidden" name="name" id="name">
+                <label for="question1"><b>1. </b>Which of the following is an example of when someone should NOT apply for a creditbuilder loan? </label>
+                <select name="question1" id="question1" required>
+                    <option value=""></option>
+                    <option value="You have never had a loan before">You have never had a loan before</option>
+                    <option value="You have a plan to make sure you make your payments on time">You have a plan to make sure you make your payments on time</option>
+                    <option value="You don’t have a credit score">You don’t have a credit score</option>
+                    <option value="You are not certain you have enough money to make on-time payments">You are not certain you have enough money to make on-time payments</option>
+                </select>
+                <br>
+                <br>
+                <label for="question2"><b>2. </b>Imagine you have a friend named Jessica. Let’s say Jessica has just applied for a credit card. Jessica has never used credit before. Jessica’s credit score is not good. Which of the following is the credit limit Jessica will likely be offered? </label>
+                <select name="question2" id="question2" required>
+                    <option value=""></option>
+                    <option value="$200">$200</option>
+                    <option value="$15,000">$15,000</option>
+                    <option value="$20">$20</option>
+                    <option value="$4000">$4000</option>
+                </select>
+                <br>
+                <br>
+                <label for="question3"><b>3. </b>What do you need in order to build credit? </label>
+                <select name="question3" id="question3" required>
+                    <option value=""></option>
+                    <option value="You need to have taken care of the things bringing down your score">You need to have taken care of the things bringing down your score</option>
+                    <option value="You need to be organized with your mail, emails, documents, and so on">You need to be organized with your mail, emails, documents, and so on</option>
+                    <option value="You need to be in a position where you can afford to make payments">You need to be in a position where you can afford to make payments</option>
+                    <option value="All of the above">All of the above</option>
+                </select>
+                <br>
+                <br>
+                <label for="question4"><b>4. </b>What is the difference between a secured credit card and a credit card? </label>
+                <select name="question4" id="question4" required>
+                    <option value=""></option>
+                    <option value="A secured card is password-protected">A secured card is password-protected</option>
+                    <option value="A secured card usually charges lower interest rates">A secured card usually charges lower interest rates</option>
+                    <option value="A secured card requires a security deposit up-front">A secured card requires a security deposit up-front</option>
+                    <option value="A secured card protects you from identity theft">A secured card protects you from identity theft</option>
+                </select>
+                <br>
+                <br>
+                <label for="question5"><b>5. </b>If you are trying to build your credit score, what credit utilization is better to have? </label>
+                <select name="question5" id="question5" required>
+                    <option value=""></option>
+                    <option value="30% utilization">30% utilization</option>
+                    <option value="50% utilization">50% utilization</option>
+                </select>
+                <br>
+                <br>
+                <label for="question6"><b>6. </b>Piggybacking, or being an authorized user on someone else’s account, can be very beneficial—but what are some of the risks? </label>
+                <select name="question6" id="question6" required>
+                    <option value=""></option>
+                    <option value="It can lead to awkward conversations with someone you’re close to">It can lead to awkward conversations with someone you’re close to</option>
+                    <option value="Your credit score can decrease if you or your contact cannot make payments">Your credit score can decrease if you or your contact cannot make payments</option>
+                    <option value="There are companies that advertise this service but are actually fraudulent (i.e. a scheme or a scam)">There are companies that advertise this service but are actually fraudulent (i.e. a scheme or a scam)</option>
+                    <option value="All of the above">All of the above</option>
+                </select>
+                <br>
+                <br>
+                <label for="question7"><b>7. </b>Let’s say you need to buy a new computer that’s $8,000. The electronics store says you can pay for the computer by making monthly payments for a year. The store also tells you that it’s interest-free and requires $0 down if you can pay it off after a year. What kind of loan is the store offering? </label>
+                <select name="question7" id="question7" required>
+                    <option value=""></option>
+                    <option value="Mortgage">Mortgage</option>
+                    <option value="Credit-builder loan">Credit-builder loan</option>
+                    <option value="Department store financing - payment plan/installment loan">Department store financing - payment plan/installment loan</option>
+                    <option value="Secured">Secured</option>
+                </select>
+                <br>
+                <br>
+                <label for="question8"><b>8. </b>If you have no credit score, which of the following can you use to establish credit? </label>
+                <select name="question8" id="question8" required>
+                    <option value=""></option>
+                    <option value="Credit-builder loan">Credit-builder loan</option>
+                    <option value="A credit card or secured credit card">A credit card or secured credit card</option>
+                    <option value="All of the above">All of the above</option>
+                    <option value="None of the above">None of the above</option>
+                </select>
+                <br>
+                <br>
+                <label for="question9"><b>9. </b>With a savings based credit builder loan you are given money up-front, and then you have to pay that money back to the bank or financial institution that provided you the credit builder loan. True or false? </label>
+                <select name="question9" id="question9" required>
+                    <option value=""></option>
+                    <option value="True">True</option>
+                    <option value="False">False</option>
+                </select>
+                <br>
+                <br>
+                <label for="question10"><b>10. </b>Imagine you have a friend named Jessica. Jessica has a credit card. Last month, Jessica used her credit card to cover her cell phone bill. Her cell phone bill was $50. At the end of the month, Jessica’s credit card company requested that she make a minimum payment of $10 as opposed to paying off the $50. Jessica makes the payment of $10 the day before the minimum payment was due. Which of the following is true? </label>
+                <select name="question10" id="question10" required>
+                    <option value=""></option>
+                    <option value="Jessica has made a late payment">Jessica has made a late payment</option>
+                    <option value="The credit company will report this payment to the credit bureaus as late because she did not pay the full $50">The credit company will report this payment to the credit bureaus as late because she did not pay the full $50</option>
+                    <option value="The credit company will report this payment as an on-time payment. It is okay that Jessica did not pay off the full $50. She can revolve most of that money till the next month">The credit company will report this payment as an on-time payment. It is okay that Jessica did not pay off the full $50. She can revolve most of that money till the next month</option>
+                </select>
+                <br>
+                <br>
+                <p><b>Reflection: </b>What surprised you about what you learned in this module? Based on the considerations and options we outlined above, what would be your plan? If you have already used some of the options discussed above, what was your experience? </p>
+                <textarea name="reflection" rows="4" placeholder="Your Message" minlength="100"></textarea>
+                <br>
+                <br>
+                <input type="submit" value="Submit" id="submit">
+            </form>
+        </div>
+    </div>
+</div>
+
+<script>
+function adjustZoom() {
+  var desiredZoom = window.innerWidth / 1500;
+  document.body.style.zoom = desiredZoom;
+}
+
+window.addEventListener("click", function (event) {
+   if (document.getElementById("avatar").contains(event.target)) {
+        document.getElementById("LogoutBox").style.display = "flex";
+   }
+   else {
+        document.getElementById("LogoutBox").style.display = "none";
+   }
+   if (document.getElementById("LogoutBox").contains(event.target)) {
+        localStorage.removeItem('user');
+        window.location.href = "/";
+   }
+});
+
+const scriptURL = 'https://script.google.com/macros/s/AKfycbz0zSiYySjCiFpANu2J_56q2bfs7BadKhkvXjfJHkMWs62x0ghpp78j-vc7-P4Kxakk/exec'
+
+const form = document.forms['quiz-1']
+
+form.addEventListener('submit', e => {
+  e.preventDefault()
+  fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+  .then(response => alert("Thank you! Your form was submitted successfully; expect an email within the next week from a finEQUITY member with feedback. In the meantime, please continue on to Lesson 6." ))
+  .then(() => { window.location.reload(); })
+  .catch(error => console.error('Error!', error.message))
+})
+
+window.onload = function() {
+  if (!localStorage.getItem('user')) {
+    window.location.href = "/";
+  }
+  adjustZoom();
+  window.addEventListener('resize', adjustZoom);
+  document.getElementById('avatar').src = JSON.parse(localStorage.getItem('user')).picture;
+  document.getElementById('email').value = JSON.parse(localStorage.getItem('user')).email;
+  document.getElementById('name').value = JSON.parse(localStorage.getItem('user')).name;
+};
+</script>
+</body>
+</html>

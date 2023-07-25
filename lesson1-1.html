@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>finEQUITY: Lesson 1</title>
+</head>
+<style>
+.desktop {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.desktop .div {
+  background-color: #ffffff;
+  border: 1px none;
+  height: 878px;
+  overflow-x: auto;
+  overflow-y: hidden;
+  position: relative;
+  width: 1440px;
+  display:inline-block;
+}
+
+.desktop .img {
+  height: 53px;
+  left: 40px;
+  object-fit: cover;
+  position: absolute;
+  top: 40px;
+  width: 250px;
+}
+
+.desktop #avatar {
+  border-radius: 26.61px;
+  height: 53px;
+  left: 1347px;
+  position: absolute;
+  top: 40px;
+  width: 53px;
+  border: 1.5px solid rgba(44, 124, 244, 1);
+  cursor: pointer;
+}
+
+.desktop .text-wrapper {
+  color: #2c7cf4;
+  font-family: "Noto Sans-Regular", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  left: 19px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 6px;
+}
+
+.desktop .lesson1 {
+  background-size: 100% 100%;
+  height: 43px;
+  left: 36px;
+  position: absolute;
+  top: 140px;
+  width: 195px;
+}
+
+.desktop .lesson2 {
+  background-size: 100% 100%;
+  height: 43px;
+  left: 36px;
+  position: absolute;
+  top: 186px;
+  width: 195px;
+}
+
+.desktop .lesson3 {
+  background-size: 100% 100%;
+  height: 43px;
+  left: 36px;
+  position: absolute;
+  top: 232px;
+  width: 195px;
+}
+
+.desktop .lesson4 {
+  background-size: 100% 100%;
+  height: 43px;
+  left: 36px;
+  position: absolute;
+  top: 278px;
+  width: 195px;
+}
+
+.desktop .lesson5 {
+  background-size: 100% 100%;
+  height: 43px;
+  left: 36px;
+  position: absolute;
+  top: 324px;
+  width: 195px;
+}
+
+.desktop .lesson6 {
+  background-size: 100% 100%;
+  height: 43px;
+  left: 36px;
+  position: absolute;
+  top: 370px;
+  width: 195px;
+}
+
+.desktop .lesson7 {
+  background-size: 100% 100%;
+  height: 43px;
+  left: 36px;
+  position: absolute;
+  top: 416px;
+  width: 195px;
+}
+
+.desktop .lesson8 {
+  background-size: 100% 100%;
+  height: 43px;
+  left: 36px;
+  position: absolute;
+  top: 462px;
+  width: 195px;
+}
+
+.desktop .closing {
+  background-size: 100% 100%;
+  height: 43px;
+  left: 36px;
+  position: absolute;
+  top: 508px;
+  width: 195px;
+}
+
+.desktop .page1 {
+  height: 712px;
+  left: 278px;
+  object-fit: cover;
+  position: absolute;
+  top: 140px;
+  width: 550px;
+  border: 2px solid black;
+}
+
+.desktop .page2 {
+  height: 712px;
+  left: 841px;
+  object-fit: cover;
+  position: absolute;
+  top: 140px;
+  width: 550px;
+  border: 2px solid black;
+}
+
+.desktop .leftarrow {
+  height: 27px;
+  left: 238px;
+  object-fit: cover;
+  position: absolute;
+  top: 152px;
+  width: 27px;
+}
+
+.desktop .rightarrow {
+  height: 27px;
+  left: 1404px;
+  object-fit: cover;
+  position: absolute;
+  top: 152px;
+  width: 27px;
+}
+
+.desktop #LogoutBox {
+  background-size: 100% 100%;
+  height: 43px;
+  left: 1296px;
+  position: absolute;
+  top: 98px;
+  width: 108px;
+  display: none;
+  cursor: pointer;
+}
+
+.desktop .lesson1:hover {
+  outline: 5px solid rgba(44, 124, 244, 1);
+  outline-offset: -5px;
+  outline-style: outset;
+}
+
+.desktop .lesson2:hover {
+  outline: 5px solid rgba(44, 124, 244, 1);
+  outline-offset: -5px;
+  outline-style: outset;
+}
+
+.desktop .lesson3:hover {
+  outline: 5px solid rgba(44, 124, 244, 1);
+  outline-offset: -5px;
+  outline-style: outset;
+}
+
+.desktop .lesson4:hover {
+  outline: 5px solid rgba(44, 124, 244, 1);
+  outline-offset: -5px;
+  outline-style: outset;
+}
+
+.desktop .lesson5:hover {
+  outline: 5px solid rgba(44, 124, 244, 1);
+  outline-offset: -5px;
+  outline-style: outset;
+}
+
+.desktop .lesson6:hover {
+  outline: 5px solid rgba(44, 124, 244, 1);
+  outline-offset: -5px;
+  outline-style: outset;
+}
+
+.desktop .lesson7:hover {
+  outline: 5px solid rgba(44, 124, 244, 1);
+  outline-offset: -5px;
+  outline-style: outset;
+}
+
+.desktop .lesson8:hover {
+  outline: 5px solid rgba(44, 124, 244, 1);
+  outline-offset: -5px;
+  outline-style: outset;
+}
+
+.desktop .closing:hover {
+  outline: 5px solid rgba(44, 124, 244, 1);
+  outline-offset: -5px;
+  outline-style: outset;
+}
+
+</style>
+
+<script>
+window.onload = function() {
+  if (!localStorage.getItem('user')) {
+    window.location.href = "/";
+  }
+  adjustZoom();
+  window.addEventListener('resize', adjustZoom);
+  document.getElementById('avatar').src = JSON.parse(localStorage.getItem('user')).picture;
+};
+
+function adjustZoom() {
+  var desiredZoom = window.innerWidth / 1500;
+  document.body.style.zoom = desiredZoom;
+}
+
+window.addEventListener("click", function (event) {
+   if (document.getElementById("avatar").contains(event.target)) {
+        document.getElementById("LogoutBox").style.display = "flex";
+   }
+   else {
+        document.getElementById("LogoutBox").style.display = "none";
+   }
+   if (document.getElementById("LogoutBox").contains(event.target)) {
+        localStorage.removeItem('user');
+        window.location.href = "/";
+   }
+});
+
+</script>
+
+<body>
+<div class="desktop">
+    <div class="div">
+        <a href = "welcome.html"> <img class="img" alt="Img" src="https://givebutter.s3.amazonaws.com/profiles/PekZmCLpFhQ3kyAX56kBXtwJTFF5oj3bSgPqVvkn.png" /> </a>
+        <a href = "lesson2.html">
+            <div class="lesson2">
+                <img src="assets/Rectangle.png" />
+                <div class="text-wrapper">Lesson 2</div>
+            </div>
+        </a>
+        <a href = "lesson1.html">
+            <div class="lesson1">
+                <img src="assets/Rectangle.png" />
+                <div class="text-wrapper">Lesson 1</div>
+            </div>
+        </a>
+        <a href = "lesson4.html">
+            <div class="lesson4">
+                <img src="assets/Rectangle.png" />
+                <div class="text-wrapper">Lesson 4</div>
+            </div>
+        </a>
+        <a href = "lesson3.html">
+            <div class="lesson3">
+                <img src="assets/Rectangle.png" />
+                <div class="text-wrapper">Lesson 3</div>
+            </div>
+        </a>
+        <a href = "lesson6.html">
+            <div class="lesson6">
+                <img src="assets/Rectangle.png" />
+                <div class="text-wrapper">Lesson 6</div>
+            </div>
+        </a>
+        <a href = "lesson5.html">
+            <div class="lesson5">
+                <img src="assets/Rectangle.png" />
+                <div class="text-wrapper">Lesson 5</div>
+            </div>
+        </a>
+        <a href = "lesson8.html">
+            <div class="lesson8">
+                <img src="assets/Rectangle.png" />
+                <div class="text-wrapper">Lesson 8</div>
+            </div>
+        </a>
+        <a href = "closing.html">
+            <div class="closing">
+                <img src="assets/Rectangle.png" />
+                <div class="text-wrapper">Closing Remarks</div>
+            </div>
+        </a>
+        <a href = "lesson7.html">
+            <div class="lesson7">
+                <img src="assets/Rectangle.png" />
+                <div class="text-wrapper">Lesson 7</div>
+            </div>
+        </a>
+        <div id="LogoutBox">
+            <img src="assets/LogoutRectangle.png" />
+            <div class="text-wrapper">Logout</div>
+        </div>
+        <img class="page1" alt="a" src="assets/Lesson1/0004.jpg" />
+        <img class="page2" alt="a" src="assets/Lesson1/0005.jpg" />
+        <a href = "lesson1.html"> <img class="leftarrow" alt="a" src="https://cdn.iconscout.com/icon/free/png-512/free-angle-left-b-1966289-1659461.png?f=avif&w=512" /> </a>
+        <a href = "lesson1-2.html"> <img class="rightarrow" alt="a" src="https://cdn.iconscout.com/icon/free/png-512/free-right-arrow-1438234-1216195.png?f=avif&w=512" /> </a>
+        <img id="avatar"/>
+    </div>
+</div>
+</body>
+</html>

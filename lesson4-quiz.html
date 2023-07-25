@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>finEQUITY: Lesson 4 Quiz</title>
+</head>
+<style>
+
+.desktop {
+ background-color: #ffffff;
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+ width: 100%;
+}
+
+.desktop .div {
+ background-color: #ffffff;
+ border: 1px none;
+ height: 1185px;
+ overflow-x: auto;
+ overflow-y: hidden;
+ position: relative;
+ width: 1440px;
+ display:inline-block;
+}
+
+.desktop .img {
+ height: 53px;
+ left: 40px;
+ object-fit: cover;
+ position: absolute;
+ top: 40px;
+ width: 250px;
+}
+
+.desktop #avatar {
+ border-radius: 26.61px;
+ height: 53px;
+ left: 1347px;
+ position: absolute;
+ top: 40px;
+ width: 53px;
+ border: 1.5px solid rgba(44, 124, 244, 1);
+ cursor: pointer;
+}
+
+.desktop .text-wrapper {
+ color: #2c7cf4;
+ font-family: "Noto Sans-Regular", Helvetica;
+ font-size: 20px;
+ font-weight: 400;
+ left: 19px;
+ letter-spacing: 0;
+ line-height: normal;
+ position: absolute;
+ top: 6px;
+}
+
+.desktop .lesson1 {
+ background-size: 100% 100%;
+ height: 43px;
+ left: 36px;
+ position: absolute;
+ top: 140px;
+ width: 195px;
+}
+
+.desktop .lesson2 {
+ background-size: 100% 100%;
+ height: 43px;
+ left: 36px;
+ position: absolute;
+ top: 186px;
+ width: 195px;
+}
+
+.desktop .lesson3 {
+ background-size: 100% 100%;
+ height: 43px;
+ left: 36px;
+ position: absolute;
+ top: 232px;
+ width: 195px;
+}
+
+.desktop .lesson4 {
+ background-size: 100% 100%;
+ height: 43px;
+ left: 36px;
+ position: absolute;
+ top: 278px;
+ width: 195px;
+}
+
+.desktop .lesson5 {
+ background-size: 100% 100%;
+ height: 43px;
+ left: 36px;
+ position: absolute;
+ top: 324px;
+ width: 195px;
+}
+
+.desktop .lesson6 {
+ background-size: 100% 100%;
+ height: 43px;
+ left: 36px;
+ position: absolute;
+ top: 370px;
+ width: 195px;
+}
+
+.desktop .lesson7 {
+ background-size: 100% 100%;
+ height: 43px;
+ left: 36px;
+ position: absolute;
+ top: 416px;
+ width: 195px;
+}
+
+.desktop .lesson8 {
+ background-size: 100% 100%;
+ height: 43px;
+ left: 36px;
+ position: absolute;
+ top: 462px;
+ width: 195px;
+}
+
+.desktop .closing {
+ background-size: 100% 100%;
+ height: 43px;
+ left: 36px;
+ position: absolute;
+ top: 508px;
+ width: 195px;
+}
+
+.desktop .leftarrow {
+ height: 27px;
+ left: 238px;
+ object-fit: cover;
+ position: absolute;
+ top: 152px;
+ width: 27px;
+}
+
+.desktop #LogoutBox {
+ background-size: 100% 100%;
+ height: 43px;
+ left: 1296px;
+ position: absolute;
+ top: 98px;
+ width: 108px;
+ display: none;
+ cursor: pointer;
+}
+
+.desktop .lesson1:hover {
+ outline: 5px solid rgba(44, 124, 244, 1);
+ outline-offset: -5px;
+ outline-style: outset;
+}
+
+.desktop .lesson2:hover {
+ outline: 5px solid rgba(44, 124, 244, 1);
+ outline-offset: -5px;
+ outline-style: outset;
+}
+
+.desktop .lesson3:hover {
+ outline: 5px solid rgba(44, 124, 244, 1);
+ outline-offset: -5px;
+ outline-style: outset;
+}
+
+.desktop .lesson4:hover {
+ outline: 5px solid rgba(44, 124, 244, 1);
+ outline-offset: -5px;
+ outline-style: outset;
+}
+
+.desktop .lesson5:hover {
+ outline: 5px solid rgba(44, 124, 244, 1);
+ outline-offset: -5px;
+ outline-style: outset;
+}
+
+.desktop .lesson6:hover {
+ outline: 5px solid rgba(44, 124, 244, 1);
+ outline-offset: -5px;
+ outline-style: outset;
+}
+
+.desktop .lesson7:hover {
+ outline: 5px solid rgba(44, 124, 244, 1);
+ outline-offset: -5px;
+ outline-style: outset;
+}
+
+.desktop .lesson8:hover {
+ outline: 5px solid rgba(44, 124, 244, 1);
+ outline-offset: -5px;
+ outline-style: outset;
+}
+
+.desktop .closing:hover {
+ outline: 5px solid rgba(44, 124, 244, 1);
+ outline-offset: -5px;
+ outline-style: outset;
+}
+
+.desktop .quiz {
+  height: 800px;
+  left: 278px;
+  object-fit: cover;
+  position: absolute;
+  top: 140px;
+  width: 1113px;
+  font-family: "Noto Sans-Regular", Helvetica;
+}
+
+textarea {
+	width: 100%;
+	padding: 10px;
+	font-family: "Noto Sans-Regular", Helvetica;
+	font-size: 16px;
+    font-weight: 400;
+}
+</style>
+<body>
+<div class="desktop">
+    <div class="div">
+        <a href = "welcome.html"> <img class="img" alt="Img" src="https://givebutter.s3.amazonaws.com/profiles/PekZmCLpFhQ3kyAX56kBXtwJTFF5oj3bSgPqVvkn.png" /> </a>
+        <a href = "lesson2.html">
+            <div class="lesson2">
+                <img src="assets/Rectangle.png" />
+                <div class="text-wrapper">Lesson 2</div>
+            </div>
+        </a>
+        <a href = "lesson1.html">
+            <div class="lesson1">
+                <img src="assets/Rectangle.png" />
+                <div class="text-wrapper">Lesson 1</div>
+            </div>
+        </a>
+        <a href = "lesson4.html">
+            <div class="lesson4">
+                <img src="assets/Rectangle.png" />
+                <div class="text-wrapper">Lesson 4</div>
+            </div>
+        </a>
+        <a href = "lesson3.html">
+            <div class="lesson3">
+                <img src="assets/Rectangle.png" />
+                <div class="text-wrapper">Lesson 3</div>
+            </div>
+        </a>
+        <a href = "lesson6.html">
+            <div class="lesson6">
+                <img src="assets/Rectangle.png" />
+                <div class="text-wrapper">Lesson 6</div>
+            </div>
+        </a>
+        <a href = "lesson5.html">
+            <div class="lesson5">
+                <img src="assets/Rectangle.png" />
+                <div class="text-wrapper">Lesson 5</div>
+            </div>
+        </a>
+        <a href = "lesson8.html">
+            <div class="lesson8">
+                <img src="assets/Rectangle.png" />
+                <div class="text-wrapper">Lesson 8</div>
+            </div>
+        </a>
+        <a href = "closing.html">
+            <div class="closing">
+                <img src="assets/Rectangle.png" />
+                <div class="text-wrapper">Closing Remarks</div>
+            </div>
+        </a>
+        <a href = "lesson7.html">
+            <div class="lesson7">
+                <img src="assets/Rectangle.png" />
+                <div class="text-wrapper">Lesson 7</div>
+            </div>
+        </a>
+        <div id="LogoutBox">
+            <img src="assets/LogoutRectangle.png" />
+            <div class="text-wrapper">Logout</div>
+        </div>
+        <a href = "lesson4-5.html"> <img class="leftarrow" alt="a" src="https://cdn.iconscout.com/icon/free/png-512/free-angle-left-b-1966289-1659461.png?f=avif&w=512" /> </a>
+        <img id="avatar"/>
+        <div class="quiz">
+            <form method="post" action="https://script.google.com/macros/s/AKfycby49v1KzVVIzyCrYRhRf5-VylWqsYGkv6R2nTt33Uzjqc5gjKZb20OnsesQ96uO5Gqr/exec" name="quiz-1">
+                <h2>Module 4 Quiz: Calculating Credit Scores</h2>
+                <p>Complete the quiz to get credit for this module! Please note that the free response reflection question needs a minimum of 100 characters. Upon submitting, wait for a pop-up to appear to confirm that your responses have been submitted successfully. A finEQUITY volunteer should get back to you with feedback within the next week. </p>
+                <input type="hidden" name="email" id="email">
+                <input type="hidden" name="name" id="name">
+                <label for="question1"><b>1. </b>Which of the following impacts your credit score the most? </label>
+                <select name="question1" id="question1" required>
+                    <option value=""></option>
+                    <option value="Payment history">Payment history</option>
+                    <option value="Credit mix">Credit mix</option>
+                    <option value="Hard inquiry">Hard inquiry</option>
+                </select>
+                <br>
+                <br>
+                <label for="question2"><b>2. </b>Imagine you use your debit card to pay for a new set of work clothes. You have $100 dollars in your bank account. The cost of the new clothes was only $50. How will this affect your credit score? </label>
+                <select name="question2" id="question2" required>
+                    <option value=""></option>
+                    <option value="My score will drop/go down">My score will drop/go down</option>
+                    <option value="My score will rise/go up">My score will rise/go up</option>
+                    <option value="This will have no impact on my credit score">This will have no impact on my credit score</option>
+                </select>
+                <br>
+                <br>
+                <label for="question3"><b>3. </b>Imagine you have a friend named Jessie. If Jessie uses her credit card to spend $50 in January, and has a credit limit of $100, what is Jessie’s utilization rate for January? </label>
+                <select name="question3" id="question3" required>
+                    <option value=""></option>
+                    <option value="50%">50%</option>
+                    <option value="25%">25%</option>
+                    <option value="33%">33%</option>
+                    <option value="70%">70%</option>
+                </select>
+                <br>
+                <br>
+                <label for="question4"><b>4. </b>You will have the same credit limit forever. True or false? </label>
+                <select name="question4" id="question4" required>
+                    <option value=""></option>
+                    <option value="True">True</option>
+                    <option value="False">False</option>
+                </select>
+                <br>
+                <br>
+                <label for="question5"><b>5. </b>Hard inquiries (or hard pulls) are used by... </label>
+                <select name="question5" id="question5" required>
+                    <option value=""></option>
+                    <option value="Lenders after you submit an application for a loan, a service credit or credit card">Lenders after you submit an application for a loan, a service credit or credit card</option>
+                    <option value="Yourself to review your own credit">Yourself to review your own credit</option>
+                    <option value="Employers to decide whether to give you a job or not">Employers to decide whether to give you a job or not</option>
+                    <option value="Companies for marketing their services to you">Companies for marketing their services to you</option>
+                </select>
+                <br>
+                <br>
+                <label for="question6"><b>6. </b>Fill in the blank: Missing just one payment on a loan can drop your credit score by at least __________ points. </label>
+                <select name="question6" id="question6" required>
+                    <option value=""></option>
+                    <option value="2 points">2 points</option>
+                    <option value="500 points">500 points</option>
+                    <option value="40 points">40 points</option>
+                </select>
+                <br>
+                <br>
+                <label for="question7"><b>7. </b>Fill in the blank: Someone who __________ will have a good credit score. </label>
+                <select name="question7" id="question7" required>
+                    <option value=""></option>
+                    <option value="Only makes purchases with a debit card">Only makes purchases with a debit card</option>
+                    <option value="Uses all of their credit limit">Uses all of their credit limit</option>
+                    <option value="Only makes purchases with cash">Only makes purchases with cash</option>
+                    <option value="Re-pays bills consistently on time">Re-pays bills consistently on time</option>
+                </select>
+                <br>
+                <br>
+                <label for="question8"><b>8. </b>Which of these does not have an impact on your credit score? </label>
+                <select name="question8" id="question8" required>
+                    <option value=""></option>
+                    <option value="You got a new job">You got a new job</option>
+                    <option value="You were promoted to a new job">You were promoted to a new job</option>
+                    <option value="You are unemployed (you do not have a job)">You are unemployed (you do not have a job)</option>
+                    <option value="All of the above">All of the above</option>
+                </select>
+                <br>
+                <br>
+                <label for="question9"><b>9. </b>Which of the following will help raise a low score or maintain a high score? </label>
+                <select name="question9" id="question9" required>
+                    <option value=""></option>
+                    <option value="Make all loan payments on time">Make all loan payments on time</option>
+                    <option value="Keep credit card balances under 15% of the credit limit">Keep credit card balances under 15% of the credit limit</option>
+                    <option value="All of the above">All of the above</option>
+                </select>
+                <br>
+                <br>
+                <label for="question10"><b>10. </b>Imagine you have a friend named Alex. Alex owns a truck. Alex’s truck breaks down. He has no emergency savings to fix it, but Alex does have a credit card with a credit limit of $1,000. Alex spends $950 to fix his truck. It takes Alex more than three months to repay the credit card company for the $950 he used. What will be the impact? </label>
+                <select name="question10" id="question10" required>
+                    <option value=""></option>
+                    <option value="His credit score will go up (increase) because he repaid most of the money he borrowed">His credit score will go up (increase) because he repaid most of the money he borrowed</option>
+                    <option value="His credit score will go down (decrease) because his credit utilization is way over 30%">His credit score will go down (decrease) because his credit utilization is way over 30%</option>
+                    <option value="There will be no change in his credit score (no change)">There will be no change in his credit score (no change)</option>
+                </select>
+                <br>
+                <br>
+                <label for="question11"><b>11. </b>Alex is now looking to buy a new car. Alex wants to get a loan for a new car. Alex submits several applications for a car loan. What will be the impact on his credit score? </label>
+                <select name="question11" id="question11" required>
+                    <option value=""></option>
+                    <option value="His credit score will go up (increase)">His credit score will go up (increase)</option>
+                    <option value="His credit score will go down (decrease)">His credit score will go down (decrease)</option>
+                    <option value="There will be no change in his credit score (no change)">There will be no change in his credit score (no change)</option>
+                </select>
+                <br>
+                <br>
+                <label for="question12"><b>12. </b>Alex decides to buy new furniture for his new apartment. The total cost will be $1,000. He uses the money from his savings accounts to buy the furniture. What is the impact on his credit score? </label>
+                <select name="question12" id="question12" required>
+                    <option value=""></option>
+                    <option value="His credit score will go up (increase)">His credit score will go up (increase)</option>
+                    <option value="His credit score will go down (decrease)">His credit score will go down (decrease)</option>
+                    <option value="There will be no change in his credit score (no change)">There will be no change in his credit score (no change)</option>
+                </select>
+                <br>
+                <br>
+                <label for="question13"><b>13. </b>Alex received an offer in the mail for a credit card. He does not apply for it. What impact does this have on his credit report? </label>
+                <select name="question13" id="question13" required>
+                    <option value=""></option>
+                    <option value="His credit score will go up (increase)">His credit score will go up (increase)</option>
+                    <option value="His credit score will go down (decrease)">His credit score will go down (decrease)</option>
+                    <option value="There will be no change in his credit score (no change)">There will be no change in his credit score (no change)</option>
+                </select>
+                <br>
+                <br>
+                <label for="question14"><b>14. </b>Fill in the blank: Constantly maxing out your __________ will not help improve your credit score, it may even make your credit score go down. </label>
+                <select name="question14" id="question14" required>
+                    <option value=""></option>
+                    <option value="Credit card/spending up to your credit limit">Credit card/spending up to your credit limit</option>
+                    <option value="Bank account/spending all of the money in your bank account">Bank account/spending all of the money in your bank account</option>
+                    <option value="Savings account/spending all of the money in your savings account">Savings account/spending all of the money in your savings account</option>
+                </select>
+                <br>
+                <br>
+                <p><b>Reflection: </b>What surprised you about what you learned in this module? Have you had any similar experiences? </p>
+                <textarea name="reflection" rows="4" placeholder="Your Message" minlength="100"></textarea>
+                <br>
+                <br>
+                <input type="submit" value="Submit" id="submit">
+            </form>
+        </div>
+    </div>
+</div>
+
+<script>
+function adjustZoom() {
+  var desiredZoom = window.innerWidth / 1500;
+  document.body.style.zoom = desiredZoom;
+}
+
+window.addEventListener("click", function (event) {
+   if (document.getElementById("avatar").contains(event.target)) {
+        document.getElementById("LogoutBox").style.display = "flex";
+   }
+   else {
+        document.getElementById("LogoutBox").style.display = "none";
+   }
+   if (document.getElementById("LogoutBox").contains(event.target)) {
+        localStorage.removeItem('user');
+        window.location.href = "/";
+   }
+});
+
+const scriptURL = 'https://script.google.com/macros/s/AKfycby49v1KzVVIzyCrYRhRf5-VylWqsYGkv6R2nTt33Uzjqc5gjKZb20OnsesQ96uO5Gqr/exec'
+
+const form = document.forms['quiz-1']
+
+form.addEventListener('submit', e => {
+  e.preventDefault()
+  fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+  .then(response => alert("Thank you! Your form was submitted successfully; expect an email within the next week from a finEQUITY member with feedback. In the meantime, please continue on to Lesson 5." ))
+  .then(() => { window.location.reload(); })
+  .catch(error => console.error('Error!', error.message))
+})
+
+window.onload = function() {
+  if (!localStorage.getItem('user')) {
+    window.location.href = "/";
+  }
+  adjustZoom();
+  window.addEventListener('resize', adjustZoom);
+  document.getElementById('avatar').src = JSON.parse(localStorage.getItem('user')).picture;
+  document.getElementById('email').value = JSON.parse(localStorage.getItem('user')).email;
+  document.getElementById('name').value = JSON.parse(localStorage.getItem('user')).name;
+};
+</script>
+</body>
+</html>
